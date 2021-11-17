@@ -15,7 +15,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@gitlab.corp.qunar.com:flight_fe_tools/qhooks.git"
+        "url": "https://github.com/jumper3/qhooks.git"
     },
     "devDependencies": {
         "@babel/cli": "^7.11.5",
