@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "allowJs": false,
+        "noEmitOnError": false,
+        "downlevelIteration": true,
+        "alwaysStrict": true,
+        "outDir": "dist",
+        "sourceMap": false,
+        "declaration": false,
+        "removeComments": false,
+        "esModuleInterop":true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "jsx": "react-native",
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "lib": ["es6", "dom"],
+        "importHelpers": true,
+        "noEmitHelpers": true,
+        "typeRoots": [
+            "./node_modules/@qnpm",
+            "./node_modules/@types"
+        ],
+        "types": [
+            "node",
+            "react",
+            "react-native",
+            "qunar-react-native-types"
+        ]
+    },
+    "include": ["src/*.ts", "src/*.tsx"]
+}
