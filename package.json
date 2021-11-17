@@ -1,6 +1,6 @@
 {
-    "name": "@qnpm/q-hooks",
-    "version": "0.0.1-alpha.init.15",
+    "name": "qhooks",
+    "version": "0.0.1",
     "description": "\u57fa\u4e8ehooks\u7684\u72b6\u6001\u7ba1\u7406\u5de5\u5177",
     "main": "lib/index.js",
     "exports": {
@@ -45,5 +45,5 @@
         "react": ">=16.8.0"
     },
     "author": "lingshanl.sun",
-    "license": "ISC"
+    "license": "MIT"
 }
